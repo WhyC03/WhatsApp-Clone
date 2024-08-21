@@ -16,7 +16,7 @@ class SenderMessageCard extends StatelessWidget {
           maxWidth: MediaQuery.of(context).size.width - 45,
         ),
         child: Card(
-          elevation: 1,
+          elevation: 2,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8.0),
           ),
