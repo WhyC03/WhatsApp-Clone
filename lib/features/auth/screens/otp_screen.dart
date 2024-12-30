@@ -45,10 +45,8 @@ class OTPScreen extends ConsumerWidget {
                 keyboardType: TextInputType.number,
                 onChanged: (val) {
                   if (val.length == 6) {
-                    print('verifying OTP');
                     verifyOTP(ref, context, val.trim());
                   }
-                    print('this function was run');
                 },
               ),
             ),
